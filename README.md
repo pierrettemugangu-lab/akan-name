@@ -18,7 +18,7 @@ This application takes a user's birthday (day, month, year) and gender, calculat
 3. Open `index.html` in your web browser.
 
 ## Live Demo
-Link to GitHub Pages:  https://github.com/pierrettemugangu-lab/akan-name.git
+Link to GitHub Pages:  https://pierrettemugangu-lab.github.io/akan-name/
 
 ## Technologies Used
 * HTML
