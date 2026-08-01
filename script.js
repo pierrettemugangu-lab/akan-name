@@ -1,5 +1,7 @@
 document.getElementById('submit-btn').addEventListener('click', function () {
+  
   // 1. user inputs
+  
   const daySelect = document.getElementById('day-input').value;
   const monthSelect = document.getElementById('month-select').value;
   const yearInput = document.getElementById('year-input').value;
@@ -7,11 +9,13 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   const resultDiv = document.getElementById('result');
 
   // Convert string inputs to integers
+  
   const day = parseInt(daySelect);
   const month = parseInt(monthSelect);
   const year = parseInt(yearInput);
 
   // 2. Input validation
+  
   if (isNaN(day) || day < 1 || day > 31) {
     resultDiv.textContent = "Please select or enter a valid day between 1 and 31.";
     resultDiv.style.color = "red";
@@ -37,12 +41,14 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   }
 
   // 3. Extract CC (Century) and YY (Year) for the formula
+  
   const CC = Math.floor(year / 100); // First two digits 
   const YY = year % 100;             // Last two digits 
   const DD = day;
   const MM = month;
 
   // 4. Calculate day of the week using the provided formula:
+  
   // d = (((CC/4) - 2*CC - 1) + ((5*YY)/4) + ((26*(MM+1))/10) + DD) mod 7
   let d = (
     Math.floor(CC / 4) - (2 * CC) - 1 +
