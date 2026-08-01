@@ -50,6 +50,7 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   // 4. Calculate day of the week using the provided formula:
   
   // d = (((CC/4) - 2*CC - 1) + ((5*YY)/4) + ((26*(MM+1))/10) + DD) mod 7
+  
   let d = (
     Math.floor(CC / 4) - (2 * CC) - 1 +
     Math.floor((5 * YY) / 4) +
@@ -58,6 +59,7 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   ) % 7;
 
   // 5. Akan names mapping (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
+  
   const akanNames = {
     male: ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"],
     female: ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
@@ -69,10 +71,12 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   ];
 
   // 6. Match calculated day to the corresponding Akan name
+  
   const akanName = akanNames[genderSelect][d];
   const dayName = daysOfWeek[d];
 
-  // 7. Display the result on the webpage//
+  // 7. Display the result on the webpage
+  
   resultDiv.style.color = "blue"
   resultDiv.innerHTML = `You were born on a <strong>${dayName}</strong>.<br>Your Akan name is: <strong>${akanName}</strong>!`;
 });
