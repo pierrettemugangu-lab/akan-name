@@ -31,4 +31,3 @@ If you have any questions, feedback, or issues, feel free to reach out via GitHu
 
 ## License and Copyright
 Copyright (c) 2026 Pierrette d'or MUGANGU.
-Licensed under the MIT License (LICENSE).
