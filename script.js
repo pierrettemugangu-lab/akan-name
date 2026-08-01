@@ -43,7 +43,7 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   // 3. Extract CC (Century) and YY (Year) for the formula:
   
   const CC = Math.floor(year / 100); 
-  const YY = year % 100;             // Last two digits 
+  const YY = year % 100;             
   const DD = day;
   const MM = month;
 
