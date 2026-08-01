@@ -1,4 +1,4 @@
-# akan-name
+# Akan-name
 #### A web application that calculates the day of the week you were born and displays your Akan name.
 
 #### By Pierrette d'or MUGANGU
