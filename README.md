@@ -1,5 +1,5 @@
 # akan-name
-#### A web application that calculates the day of the week you were born and displays your Akan name, 2026
+#### A web application that calculates the day of the week you were born and displays your Akan name.
 
 #### By Pierrette d'or MUGANGU
 
@@ -17,14 +17,18 @@ Behavior | Input Example | Output Example
    `git clone  https://github.com/pierrettemugangu-lab/akan-name.git
 2. Navigate to the project folder.
 3. Open `index.html` in your web browser.
+
 ## Live Demo
 Link to GitHub Pages:  https://github.com/pierrettemugangu-lab/akan-name.git
+
 ## Technologies Used
 * HTML
 * CSS
 * JavaScript (ES6)
+
 ## Support and Contact Details
 If you have any questions, feedback, or issues, feel free to reach out via GitHub. pierrettemugangu-lab
+
 ## License and Copyright
 Copyright (c) 2026 Pierrette d'or MUGANGU.
 Licensed under the MIT License (LICENSE).
